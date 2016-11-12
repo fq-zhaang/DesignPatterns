@@ -9,3 +9,6 @@ We can think about a celebrity who has many fans. Each of these fans wants to ge
 
 # Computer world example
 Consider a simple UI-based example, where this UI is connected with some database(or business logic). A user can execute some query through that UI and after searching the database, the result is reflected back in the UI. In most of the cases we segregate the UI with the database. If a change occurs in the database, the UI should be notified so that it can update its display according to the change.
+
+# Assignment
+Implement an observer pattern where you have multiple observers and multiple subjects.

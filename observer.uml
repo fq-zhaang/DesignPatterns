@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hgsW0KimEeaKVPGZ3PrCyw" name="DesignPatterns">
+  <packagedElement xmi:type="uml:Model" xmi:id="_e_S7oKinEeaKVPGZ3PrCyw" name="Creational">
+    <packagedElement xmi:type="uml:Model" xmi:id="_4LqWEKiqEeaKVPGZ3PrCyw" name="Singleton">
+      <packagedElement xmi:type="uml:Class" xmi:id="_90K2sKiqEeaKVPGZ3PrCyw" name="Class1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_tVfdwKiqEeaKVPGZ3PrCyw" name="Behavioral">
+    <packagedElement xmi:type="uml:Model" xmi:id="_1raHMainEeaKVPGZ3PrCyw" name="Observer">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_hA2uQKioEeaKVPGZ3PrCyw" name="IObserver">
+        <ownedOperation xmi:id="_njD3AKioEeaKVPGZ3PrCyw" name="void update">
+          <ownedParameter xmi:id="_q4-C4KioEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8o95wKioEeaKVPGZ3PrCyw" name="Observer1">
+        <interfaceRealization xmi:id="__wpm8KipEeaKVPGZ3PrCyw" client="_8o95wKioEeaKVPGZ3PrCyw" supplier="_hA2uQKioEeaKVPGZ3PrCyw" contract="_hA2uQKioEeaKVPGZ3PrCyw"/>
+        <ownedOperation xmi:id="__0D8wKioEeaKVPGZ3PrCyw" name="void update">
+          <ownedParameter xmi:id="_BfeVsKipEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LSCb8KipEeaKVPGZ3PrCyw" name="Observer1">
+        <interfaceRealization xmi:id="_NRTlAKipEeaKVPGZ3PrCyw" client="_LSCb8KipEeaKVPGZ3PrCyw" supplier="_hA2uQKioEeaKVPGZ3PrCyw" contract="_hA2uQKioEeaKVPGZ3PrCyw"/>
+        <ownedOperation xmi:id="_LSCb8aipEeaKVPGZ3PrCyw" name="void update">
+          <ownedParameter xmi:id="_LSCb8qipEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_UrA9gKipEeaKVPGZ3PrCyw" name="ISubject">
+        <ownedOperation xmi:id="_ciGOgKipEeaKVPGZ3PrCyw" name="register">
+          <ownedParameter xmi:id="_g2YHIKipEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uOcUcKipEeaKVPGZ3PrCyw" name="unregister">
+          <ownedParameter xmi:id="_vuX2IKipEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_wisPAKipEeaKVPGZ3PrCyw" name="notifyObserver">
+          <ownedParameter xmi:id="_y8D6IKipEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_z0pH8KipEeaKVPGZ3PrCyw" name="Subject">
+        <interfaceRealization xmi:id="_VlIxgKirEeaKVPGZ3PrCyw" client="_z0pH8KipEeaKVPGZ3PrCyw" supplier="_UrA9gKipEeaKVPGZ3PrCyw" contract="_UrA9gKipEeaKVPGZ3PrCyw"/>
+        <ownedOperation xmi:id="_Gk7hsKirEeaKVPGZ3PrCyw" name="register">
+          <ownedParameter xmi:id="_Gk7hsairEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Gk7hsqirEeaKVPGZ3PrCyw" name="unregister">
+          <ownedParameter xmi:id="_Gk7hs6irEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Gk7htKirEeaKVPGZ3PrCyw" name="notifyObserver">
+          <ownedParameter xmi:id="_Gk7htairEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Iekj4KirEeaKVPGZ3PrCyw" name="Subject">
+        <interfaceRealization xmi:id="_WJNH4KirEeaKVPGZ3PrCyw" client="_Iekj4KirEeaKVPGZ3PrCyw" supplier="_UrA9gKipEeaKVPGZ3PrCyw" contract="_UrA9gKipEeaKVPGZ3PrCyw"/>
+        <ownedOperation xmi:id="_Iekj4qirEeaKVPGZ3PrCyw" name="register">
+          <ownedParameter xmi:id="_Iekj46irEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Iekj5KirEeaKVPGZ3PrCyw" name="unregister">
+          <ownedParameter xmi:id="_Iekj5airEeaKVPGZ3PrCyw" name="Observer"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Iekj5qirEeaKVPGZ3PrCyw" name="notifyObserver">
+          <ownedParameter xmi:id="_Iekj56irEeaKVPGZ3PrCyw" name="int"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_7GSesKirEeaKVPGZ3PrCyw" client="_hA2uQKioEeaKVPGZ3PrCyw" supplier="_z0pH8KipEeaKVPGZ3PrCyw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_8dlo0KirEeaKVPGZ3PrCyw" client="_hA2uQKioEeaKVPGZ3PrCyw" supplier="_Iekj4KirEeaKVPGZ3PrCyw"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
