@@ -14,25 +14,3 @@ In a software system sometimes we may decide to use only one file system. Usuall
 We have made the constructor private first, so that we cannot instantiate in normal fashion. When we attempt to create an instance, we checking whether we already have one available copy. If we do not, we'll create it, else we'll simply reuse the existing one.
 
 # Assignment
-
-# thread safety
-* Case (I)
-
-```
-public static synchronized MakeACaptain getCaptain() {
-	// our code
-}
-
-```
-
-* Case (II) - eager initialization
-```
- public class MakeACaptain {
-	private static MakeACaptain _captain = new MakeACaptain();
-	private MakeACaptain() {}
-	public static MakeACaptain getCaptain(){
-		return _captain;
-	}
- }
-```
-
