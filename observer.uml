@@ -2,7 +2,11 @@
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hgsW0KimEeaKVPGZ3PrCyw" name="DesignPatterns">
   <packagedElement xmi:type="uml:Model" xmi:id="_e_S7oKinEeaKVPGZ3PrCyw" name="Creational">
     <packagedElement xmi:type="uml:Model" xmi:id="_4LqWEKiqEeaKVPGZ3PrCyw" name="Singleton">
-      <packagedElement xmi:type="uml:Class" xmi:id="_90K2sKiqEeaKVPGZ3PrCyw" name="Class1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_90K2sKiqEeaKVPGZ3PrCyw" name="MakeCaptain">
+        <ownedOperation xmi:id="_qDC78KiyEeaKVPGZ3PrCyw" name="getCaptain">
+          <ownedParameter xmi:id="_soqTUKiyEeaKVPGZ3PrCyw" type="_90K2sKiqEeaKVPGZ3PrCyw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural"/>
