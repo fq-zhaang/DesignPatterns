@@ -9,7 +9,9 @@
       </packagedElement>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural"/>
+  <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural">
+    <packagedElement xmi:type="uml:Model" xmi:id="_CR1eYKi3EeaKVPGZ3PrCyw" name="proxy"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_tVfdwKiqEeaKVPGZ3PrCyw" name="Behavioral">
     <packagedElement xmi:type="uml:Model" xmi:id="_1raHMainEeaKVPGZ3PrCyw" name="Observer">
       <packagedElement xmi:type="uml:Interface" xmi:id="_hA2uQKioEeaKVPGZ3PrCyw" name="IObserver">
