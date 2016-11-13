@@ -11,6 +11,25 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural">
     <packagedElement xmi:type="uml:Model" xmi:id="_CR1eYKi3EeaKVPGZ3PrCyw" name="proxy"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_8uMCAKmaEea10vr0r2dRcA" name="TemplateMethod">
+      <packagedElement xmi:type="uml:Class" xmi:id="_BmB6sKmbEea10vr0r2dRcA" name="BasicEngineering">
+        <ownedOperation xmi:id="_D--IAKmbEea10vr0r2dRcA" name="BasicEngineering"/>
+        <ownedOperation xmi:id="_GBFJsKmbEea10vr0r2dRcA" name="Papers"/>
+        <ownedOperation xmi:id="_H0DjMKmbEea10vr0r2dRcA" name="Math"/>
+        <ownedOperation xmi:id="_I21O0KmbEea10vr0r2dRcA" name="SoftSkills"/>
+        <ownedOperation xmi:id="_KwSDwKmbEea10vr0r2dRcA" name="SpecialPaper"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_P3WEMKmbEea10vr0r2dRcA" name="Electronics">
+        <generalization xmi:id="_h80b0KmbEea10vr0r2dRcA" general="_BmB6sKmbEea10vr0r2dRcA"/>
+        <ownedOperation xmi:id="_SOVJsKmbEea10vr0r2dRcA" name="Electronics"/>
+        <ownedOperation xmi:id="_TvfacKmbEea10vr0r2dRcA" name="SpecialPaper"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VqmcQKmbEea10vr0r2dRcA" name="ComputerScience">
+        <generalization xmi:id="_jLyJUKmbEea10vr0r2dRcA" general="_BmB6sKmbEea10vr0r2dRcA"/>
+        <ownedOperation xmi:id="_Zj8sYKmbEea10vr0r2dRcA" name="ComputerScience"/>
+        <ownedOperation xmi:id="_auoW0KmbEea10vr0r2dRcA" name="SpecialPaper"/>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_tVfdwKiqEeaKVPGZ3PrCyw" name="Behavioral">
     <packagedElement xmi:type="uml:Model" xmi:id="_1raHMainEeaKVPGZ3PrCyw" name="Observer">

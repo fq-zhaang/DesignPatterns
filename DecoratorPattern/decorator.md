@@ -11,4 +11,15 @@ Suppose you already own a house. Now you have decided to add an additional floor
 Suppose in a GUI-based toolkit, we want to add some border properties. We can do this by inheritance. But it cannot be treated as the best solution because our user or client cannot have absolute control from the creation. The core of that choice is static here.
 **Decorator** can offer us a more flexible approach: here we may surround the component in another object. The enclosing object is termed "decorator". It conforms to the interface of the component it decorates. It forwards requests to the component. It can perform additional operations before or after those forwarding requests. An unlimited number of responsibilities can be added with this concept.
 
-# Illustration
+# Note
+* Main advantage
+    1. Without disturbing existing objects in the system, we can add new functionality to a particular object.
+    2. We can code incrementally.
+
+
+* Difference from inheritance
+
+With inheritance, we need to create a new class for new responsibilities. So, there will be many classes inside the system, which in turn can make the system complex.
+
+* Major disadvantage
+    If we create too many decorators in the system, the system will be hard to maitain and debug. At the same time, the decorator can create unnecessary confusion.
