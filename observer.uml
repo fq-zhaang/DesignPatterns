@@ -88,5 +88,6 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_7GSesKirEeaKVPGZ3PrCyw" client="_hA2uQKioEeaKVPGZ3PrCyw" supplier="_z0pH8KipEeaKVPGZ3PrCyw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_8dlo0KirEeaKVPGZ3PrCyw" client="_hA2uQKioEeaKVPGZ3PrCyw" supplier="_Iekj4KirEeaKVPGZ3PrCyw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_o3kOIKmgEea10vr0r2dRcA" name="Strategy"/>
   </packagedElement>
 </uml:Model>

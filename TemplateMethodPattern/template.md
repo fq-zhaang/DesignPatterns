@@ -9,3 +9,10 @@ Suppose we want to make pizza. The basic mechanism is the same, but extra materi
 
 # Illustration
 Here we tried to implement our example with a similar concept.
+
+# Note
+1. "Reuse of code" is the fundamental aim of this method. This is why, in general, we can see the use of this pattern in many class libraries.
+1. We explicitly decide which operations should be hook operation during the development of a template method.
+
+# What is the major precaution we should take for implementing this method ?
+We need to minimize the number of incomplete/abstract operations. (In Java, remember: an abstract method does not have a body). Otherwise, each of the subclasses needs to override them and the overall process will lose the effectiveness of this design pattern.
