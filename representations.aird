@@ -778,38 +778,38 @@
       <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer"/>
       <target xmi:type="uml:Model" href="observer.uml#_8uMCAKmaEea10vr0r2dRcA"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_pBZxQKo9Eead5cmgiPe_-g" name="Iterator">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pBZxQao9Eead5cmgiPe_-g" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_pBZxQqo9Eead5cmgiPe_-g"/>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_AiiV8KpiEeaVgYEFF8fuSA" name="Iterator">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AiiV8apiEeaVgYEFF8fuSA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_AiiV8qpiEeaVgYEFF8fuSA"/>
       </ownedAnnotationEntries>
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_pCfWYKo9Eead5cmgiPe_-g" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_pCfWYao9Eead5cmgiPe_-g" type="Sirius" element="_pBZxQKo9Eead5cmgiPe_-g" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_pCiZsKo9Eead5cmgiPe_-g" type="2001" element="_pBZxQ6o9Eead5cmgiPe_-g">
-            <children xmi:type="notation:Node" xmi:id="_pCogUKo9Eead5cmgiPe_-g" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_pCogUao9Eead5cmgiPe_-g" y="5"/>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AjhNYKpiEeaVgYEFF8fuSA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_AjhNYapiEeaVgYEFF8fuSA" type="Sirius" element="_AiiV8KpiEeaVgYEFF8fuSA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_AkSCYKpiEeaVgYEFF8fuSA" type="2001" element="_AiiV86piEeaVgYEFF8fuSA">
+            <children xmi:type="notation:Node" xmi:id="_AleVMKpiEeaVgYEFF8fuSA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AleVMapiEeaVgYEFF8fuSA" y="5"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_pCwcIKo9Eead5cmgiPe_-g" type="3005" element="_pBZxRKo9Eead5cmgiPe_-g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_pCwcIao9Eead5cmgiPe_-g" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pCwcIqo9Eead5cmgiPe_-g"/>
+            <children xmi:type="notation:Node" xmi:id="_AwFpwKpiEeaVgYEFF8fuSA" type="3005" element="_AiiV9KpiEeaVgYEFF8fuSA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AwFpwapiEeaVgYEFF8fuSA" fontName="Microsoft YaHei UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AwFpwqpiEeaVgYEFF8fuSA"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_pCiZsao9Eead5cmgiPe_-g" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pCiZsqo9Eead5cmgiPe_-g" width="481" height="105"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AkSCYapiEeaVgYEFF8fuSA" fontName="Microsoft YaHei UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AkSCYqpiEeaVgYEFF8fuSA" width="481" height="105"/>
           </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_pCfWYqo9Eead5cmgiPe_-g"/>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_AjhNYqpiEeaVgYEFF8fuSA"/>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_pBZxQ6o9Eead5cmgiPe_-g" width="-1" height="-1" resizeKind="NSEW">
-        <target xmi:type="uml:Model" href="observer.uml#_tVfdwKiqEeaKVPGZ3PrCyw"/>
-        <semanticElements xmi:type="uml:Model" href="observer.uml#_tVfdwKiqEeaKVPGZ3PrCyw"/>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_pBZxRKo9Eead5cmgiPe_-g" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.uml2.design/icons/empty.svg">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_AiiV86piEeaVgYEFF8fuSA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="uml:Model" href="observer.uml#_7x4qYKphEeaVgYEFF8fuSA"/>
+        <semanticElements xmi:type="uml:Model" href="observer.uml#_7x4qYKphEeaVgYEFF8fuSA"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_AiiV9KpiEeaVgYEFF8fuSA" showIcon="false" labelPosition="node" workspacePath="/org.obeonetwork.dsl.uml2.design/icons/empty.svg">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']/@ownedRepresentations[name='Reused%20Description']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']/@ownedRepresentations[name='Reused%20Description']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']"/>
       </ownedDiagramElements>
       <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_pBZxRao9Eead5cmgiPe_-g"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_AiiV9apiEeaVgYEFF8fuSA"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer"/>
-      <target xmi:type="uml:Model" href="observer.uml#_tVfdwKiqEeaKVPGZ3PrCyw"/>
+      <target xmi:type="uml:Model" href="observer.uml#_7x4qYKphEeaVgYEFF8fuSA"/>
     </ownedRepresentations>
   </ownedViews>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_hljosKimEeaKVPGZ3PrCyw">
