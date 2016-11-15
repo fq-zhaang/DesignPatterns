@@ -96,5 +96,6 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_LPBVEKrWEeatB_HyDGR-MA" name="Command"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_sU76gKstEeatB_HyDGR-MA" name="State"/>
   </packagedElement>
 </uml:Model>
