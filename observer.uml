@@ -8,6 +8,7 @@
         </ownedOperation>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_YGLfoKrUEeatB_HyDGR-MA" name="Factory"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_1raHMKinEeaKVPGZ3PrCyw" name="Structural">
     <packagedElement xmi:type="uml:Model" xmi:id="_CR1eYKi3EeaKVPGZ3PrCyw" name="proxy"/>
