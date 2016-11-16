@@ -11,3 +11,6 @@ We have a job processing application where we can process only one job(or any ce
 
 # Illustration
 Suppose we have remote control to turn the TV on/off. Initially the TV is in the off state. When we press the power button, the TV will be on; upon the next press of the button, the TV will go off.
+
+# Note
+If the number of states increases significantly in the system, then it becomes extemely hard to maitain that system.
