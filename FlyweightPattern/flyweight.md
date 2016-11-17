@@ -9,3 +9,10 @@ In all real-world business applications, we want to av oid storing similar objec
 
 # Computer world example
 The graphical representation of characters in word processors is a common example of this pattern. Also, we can think of a computer game where we have a large number of participants whose looks are same but who differ from each other in their performances(or color, dress, weapons, etc.). We can use flyweight pattern in all those scenarios.
+
+# Note
+1. Minimization of storage is one of the key concerns here. If we can have more flyweights to share, we can save more memory.
+2. If we can compute extrinsic states rather than storing them, we can save a significant amount of memory.
+3. Sometimes in a tree structure, to share leaf nodes, we combine this pattern with composite pattern.
+4. A flyweight interface may or may not enable sharing. In some cases, we may have unshared flyweight objects, which in turn may have concrete flyweight objects as children.
+5. In simple terms: intrinsic data make the instance unique, whereas extrinsic data are passed as arguments.
