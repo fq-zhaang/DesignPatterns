@@ -18,6 +18,7 @@
 	<classpathentry kind="src" path="AbstractFactoryPattern"/>
 	<classpathentry kind="src" path="MediatorPattern"/>
 	<classpathentry kind="src" path="PrototypePattern"/>
+	<classpathentry kind="src" path="ChainOfResponsibility"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
