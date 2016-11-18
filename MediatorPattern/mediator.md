@@ -15,3 +15,10 @@ So, When a program consists of many classes and the logic is distributed among t
 
 # Illustration
 In the example, we have a group of three friends - Amit, Sohel, and Raghu. Among these three friends, Raghu is the boss and he needs to coordinate things properly. Amit and Sohel work in Raghu's team. Whenever Amit and Sohul talk to each other, Raghu can see who is sending messages to him. Raghu wants to coordinate things smoothly and whenever he wants to send messages, he wants his messages to reach others instantly.
+
+# Note
+1. Now you should have a clear idea that this pattern is very useful when we observer complex communication in the system. Communication(among objects) is much simpler with this pattern.
+2. This pattern reduces the number of subclasses in the system and it also enhances the loose coupling in the system.
+3. Here the "many-to-many" relationship is replaces with the "one-to-many" relationship - which is much easier to read and understand.
+4. We can provide a centralized control with this pattern.
+5. Sometimes the encapsulation process becomes tricky and we find it difficult to maintain or implement.
