@@ -11,9 +11,9 @@ public class InterpreterEx {
 		this.ic = c;
 	}
 	public void interpret(String str) {
+		Scanner in = new Scanner(System.in);
 		for(int i = 0;i < 2; i++) {
 			System.out.println("Enter your choice: ");
-			Scanner in = new Scanner(System.in);
 			String c = in.nextLine();
 			if(c.equals("1")) {
 				exp = new InToWords(str);
@@ -23,6 +23,7 @@ public class InterpreterEx {
 				exp.interpret(this.ic);
 			}
 		}
+		in.close();
 	}
 	
 	public static void main(String[] args) {
@@ -32,6 +33,7 @@ public class InterpreterEx {
 		Context ic = new Context(input);
 		InterpreterEx client = new InterpreterEx(ic);
 		client.interpret(input);
+		in.close();
 	}
 
 }
