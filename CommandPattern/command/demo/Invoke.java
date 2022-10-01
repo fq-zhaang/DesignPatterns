@@ -7,5 +7,4 @@ public class Invoke {
 		this.cmd = cmd;
 		cmd.Do();
 	}
-
 }

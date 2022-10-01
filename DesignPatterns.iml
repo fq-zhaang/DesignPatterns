@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ObserverPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SingletonPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProxyPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DecoratorPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TemplateMethodPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StrategyPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdapterPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommandPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IteratorPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FacadePattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FactoryMethodPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MementoPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StatePattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BuilderPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FlyweightPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AbstractFactoryPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MediatorPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrototypePattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ChainOfResponsibility" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CompositePattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BridgePattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VisitorPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InterpreterPattern" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+</module>
